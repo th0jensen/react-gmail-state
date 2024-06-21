@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import initialEmails from './data/emails'
+import Header from './components/Header.tsx'
+import initialEmails from './data/emails.ts'
 
 import './styles/App.css'
 
@@ -28,7 +28,7 @@ function App() {
           </li>
 
           <li className="item toggle">
-            <label for="hide-read">Hide read</label>
+            <label htmlFor="hide-read">Hide read</label>
             <input
               id="hide-read"
               type="checkbox"
